@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data: https://www.facebook.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; script-src 'self' 'unsafe-inline' https://connect.facebook.net; connect-src 'self' https://www.facebook.com https://connect.facebook.net; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="description" content="Esqueleto Perfeito - Guia digital em PDF para a prova pratica do Revalida, baseado nos PEPs oficiais do INEP. Por Revalideii Ensino Medico.">
 <meta name="robots" content="index, follow">
@@ -382,9 +382,27 @@
 <meta property="og:title" content="Esqueleto Perfeito - Revalida 2a Fase">
 <meta property="og:description" content="O roteiro fixo, baseado nos PEPs oficiais do INEP, para nao perder ponto na estacao pratica do Revalida.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://www.esqueletoperfeito.com.br/">
+<meta property="og:url" content="https://esqueletoperfeito.com.br/">
 </head>
 <body>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '214961653699962');
+fbq('track', 'PageView');
+fbq('track', 'ViewContent', {content_name: 'Esqueleto Perfeito', content_type: 'product', value: 57.99, currency: 'BRL'});
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=214961653699962&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
 <div class="page">
 
   <!-- ============ HERO ============ -->
@@ -407,7 +425,7 @@
           </p>
 
           <div class="hero-cta">
-            <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer">
+            <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer" onclick="if(window.fbq){fbq('track','InitiateCheckout',{content_name:'Esqueleto Perfeito',value:57.99,currency:'BRL'});}">
               Quero o meu Esqueleto Perfeito <span class="btn-arrow">→</span>
             </a>
             <span class="price-note">R$ 57,99 à vista · PDF digital · liberação imediata após a compra</span>
@@ -647,7 +665,7 @@
             </div>
             <span class="offer-price-sub">à vista · pagamento único · sem mensalidade</span>
           </div>
-          <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer">
+          <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer" onclick="if(window.fbq){fbq('track','InitiateCheckout',{content_name:'Esqueleto Perfeito',value:57.99,currency:'BRL'});}">
             Quero o meu Esqueleto Perfeito <span class="btn-arrow">→</span>
           </a>
           <span class="price-note" style="text-align:center;">PDF digital · liberação imediata</span>
@@ -704,7 +722,7 @@
 
   <div class="sticky-cta">
     <span class="sticky-cta-price">R$ 57,99<small>PDF · acesso imediato</small></span>
-    <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer">Quero o meu</a>
+    <a class="btn" href="https://pay.hotmart.com/A107595183N" target="_blank" rel="noopener noreferrer" onclick="if(window.fbq){fbq('track','InitiateCheckout',{content_name:'Esqueleto Perfeito',value:57.99,currency:'BRL'});}">Quero o meu</a>
   </div>
 
 </div>
